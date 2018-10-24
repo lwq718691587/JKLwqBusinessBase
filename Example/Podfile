@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKLwqBusinessBase_Example' do
+  pod 'JKLwqBusinessBase', :path => '../'
+
+  target 'JKLwqBusinessBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
